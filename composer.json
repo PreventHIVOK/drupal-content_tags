@@ -2,8 +2,11 @@
     "name": "preventhivok/content_tags",
     "description": "Drupal 8 module that adds a Tags vocabulary and field.",
     "type": "drupal-module",
-    "version": "1.0.0",
-    "keywords": [ "Drupal 8", "module", "taxonomy" ],
+    "keywords": [
+        "Drupal",
+        "module",
+        "taxonomy"
+    ],
     "license": "GPL-2.0+",
     "homepage": "https://github.com/PreventHIVOk/drupal-content_tags#readme",
     "support": {

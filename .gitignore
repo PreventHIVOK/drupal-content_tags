@@ -1,0 +1,8 @@
+# Composer - Ignore package files
+vendor/*
+
+# NPM - Ignore package files
+node_modules/*
+
+# Bower - Ignore package files
+bower_components/*

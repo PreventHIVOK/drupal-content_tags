@@ -3,5 +3,6 @@ type: module
 description: 'Adds a <em>Tags</em> vocabulary and field.'
 core: 8.x
 package: Custom
+
 dependencies:
   - taxonomy:taxonomy

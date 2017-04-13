@@ -1,5 +1,5 @@
 {
-    "name": "phok-content-tags",
+    "name": "drupal-content-tags",
     "description": "Drupal 8 module that adds a Tags vocabulary and field.",
     "version": "1.0.0",
     "keywords": [ "Drupal 8", "module", "taxonomy" ],
