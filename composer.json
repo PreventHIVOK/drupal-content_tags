@@ -25,7 +25,8 @@
     },
     "require": {
         "php": "^7.0",
-        "drupal/core": "^8.0"
+        "drupal/core": "^8.0",
+        "drupal/taxonomy": "*"
     },
     "scripts": {
         "test": "echo Error: No tests have been specified && exit 1"
