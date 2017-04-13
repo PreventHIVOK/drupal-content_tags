@@ -1,0 +1,10 @@
+suites:
+    content_tags_suite:
+        namespace: Drupal\content_tags
+        psr4_prefix: Drupal\content_tags
+        src_path: src
+
+    content_tags_test_suite:
+        namespace: Drupal\content_tags\Tests
+        psr4_prefix: Drupal\content_tags\Tests
+        src_path: tests

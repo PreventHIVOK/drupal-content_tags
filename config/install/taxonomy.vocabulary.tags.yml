@@ -1,0 +1,13 @@
+langcode: en
+vid: tags
+name: Tags
+description: 'Used to organize, classify, and cross-link similar site content.'
+hierarchy: 0
+weight: 0
+status: true
+dependencies:
+  enforced:
+    module:
+      - content_tags
+  module:
+    - taxonomy

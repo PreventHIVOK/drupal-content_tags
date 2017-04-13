@@ -1,0 +1,20 @@
+{
+    "name": "phok-content-tags",
+    "description": "Drupal 8 module that adds a Tags vocabulary and field.",
+    "version": "1.0.0",
+    "keywords": [ "Drupal 8", "module", "taxonomy" ],
+    "license": "GPL-2.0+",
+    "homepage": "https://github.com/PreventHIVOk/drupal-content_tags#readme",
+    "bugs": { "url": "https://github.com/PreventHIVOK/drupal-content_tags/issues" },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/PreventHIVOK/drupal-content_tags.git"
+    },
+    "author": "Curtis Blumer <curtis.blumer@gmail.com> (http://curtapedia.com)",
+    "directories": {
+        "lib": "src",
+        "test": "tests"
+    },
+    "scripts": { "test": "echo Error: No tests have been specified && exit 1" },
+    "private": true
+}

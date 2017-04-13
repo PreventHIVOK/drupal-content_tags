@@ -1,0 +1,31 @@
+<?php
+
+/**
+ * @file
+ * Contains content_tags.module file.
+ */
+
+declare(strict_types=1);
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ *
+ * @param  string              $route_name
+ * @param  RouteMatchInterface $route_match
+ *
+ * @return string              Help page output in HTML.
+ */
+function content_tags_help(string $route_name, RouteMatchInterface $route_match): string {
+  switch ($route_name) {
+    // Main module help for the content_tag module.
+    case 'help.page.content_tags':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Adds a tags vocabulary and field storage configuration schema to the site.') . '</p>';
+      return $output;
+    default:
+      break;
+  }
+}
