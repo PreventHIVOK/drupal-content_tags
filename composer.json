@@ -1,5 +1,5 @@
 {
-    "name": "drupal/content_tags",
+    "name": "preventhivok/content_tags",
     "description": "Drupal 8 module that adds a Tags vocabulary and field.",
     "type": "drupal-module",
     "version": "1.0.0",
@@ -18,6 +18,9 @@
             "role": "Developer"
         }
     ],
+    "replace": {
+        "drupal/content_tags": "*"
+    },
     "extra": {
         "branch-alias": {
             "dev-master": "1.x-dev"
